@@ -790,7 +790,7 @@ contract Orfano is Context, IERC20, Ownable {
     mapping (address => bool) private _isExcluded;
     address[] private _excluded;
 
-    address private _marketingWalletAddress = 0x7184143755F927FD4Ac39A93EA617c735926070E;
+    address private _marketingWalletAddress = 0x182850ba1131996C5bA3282d708A5FeaCa2A112e;
    
     uint256 private constant MAX = ~uint256(0);
     uint256 private _tTotal = 1000000000 * 10**6 * 10**9;
